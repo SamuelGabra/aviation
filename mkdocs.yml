@@ -2,4 +2,4 @@ site_name: My Docs
 
 nav:
   - Home: "index.md"
-  - Aviation model: "aviation.md"
+  - Aviation Model: "aviation.md"
