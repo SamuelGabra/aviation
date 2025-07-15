@@ -4,6 +4,8 @@ A simple model for global sustainable aviation. The model currently contains the
 
 ## Developer Guide
 
+These commands can be used to initialise a virtual environment for package management, and to install the required dependencies using pip install. The requirements file is used to identify the required dependencies
+
 ```
 python3 -m venv .venv
 source .venv/bin/activate
