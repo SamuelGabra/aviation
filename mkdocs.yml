@@ -1,5 +1,5 @@
 site_name: My Docs
 
 nav:
-  - "index.md"
-  - "Aviation model": "aviation.md"
+  - Home: "index.md"
+  - Aviation model: "aviation.md"
