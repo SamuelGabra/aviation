@@ -10,13 +10,13 @@ The model describes the number of passengers per flight using _two_ equations an
 
 The list of variables is described in the table below:
 
-| Variable name            | Description                                                                    | Type    | Value    | Reference |
-| ------------------------ | ------------------------------------------------------------------------------ | ------- | -------- | --------- |
-| $seats_{aircraft}$       | number of seats per aircraft                                                   | Input   | 200      |           |
-| $passengers_{year}$      | number of commercial aviation passengers per year                              | Input   | 6 x 10^9 |           |
-| $aircraftflights_{day}$  | number of aircraft flights per day                                             | Input   | 2        |           |
-| $passengers_{day}$       | number of passengers flying per day                                            | Derived | 2        |           |
-| $aircraftfleet_{global}$ | Global aircraft fleet required to transport the specified number of passengers | Derived |          |           |
+| Variable name            | Description                                                                    | Type    | Value              | Reference |
+| ------------------------ | ------------------------------------------------------------------------------ | ------- | ------------------ | --------- |
+| $seats_{aircraft}$       | number of seats per aircraft                                                   | Input   | 200                |           |
+| $passengers_{year}$      | number of commercial aviation passengers per year                              | Input   | 6 x 10<sup>9</sup> |           |
+| $aircraftflights_{day}$  | number of aircraft flights per day                                             | Input   | 2                  |           |
+| $passengers_{day}$       | number of passengers flying per day                                            | Derived | 2                  |           |
+| $aircraftfleet_{global}$ | Global aircraft fleet required to transport the specified number of passengers | Derived |                    |           |
 
 ## Constants
 
@@ -39,3 +39,5 @@ $$
 aircraftfleet_{global} = \frac{passengers_{day}}{days_{year} * aircraftflights_{day}}
 \end{equation}
 $$
+
+## References
