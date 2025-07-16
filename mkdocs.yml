@@ -3,6 +3,8 @@ theme:
   name: material
 
 markdown_extensions:
+  - pymdownx.caret
+  - pymdownx.tilde
   - pymdownx.arithmatex:
       generic: true
 
