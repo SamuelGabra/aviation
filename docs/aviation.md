@@ -28,15 +28,19 @@ These are the model parameters that are not expected to change by the users
 
 ## Equations
 
+The total number of aviation passengers travelling per day is described using equation $\ref{eq:globalpassengers}$, while the total number of global aircraft fleet is decribed in equation $\ref{eq:aircraftfleet}$.
+
 $$
 \begin{equation}
-passengers_{global} = \frac{passengers_{day}}{seats_{aircraft}}
+    passengers_{day} = \frac{passengers_{year}}{days_{year}}
+    \label{eq:globalpassengers}
 \end{equation}
 $$
 
 $$
 \begin{equation}
-aircraftfleet_{global} = \frac{passengers_{day}}{days_{year} * aircraftflights_{day}}
+    aircraftfleet_{global} = \frac{passengers_{day}}{days_{year} * aircraftflights_{day}}
+    \label{eq:aircraftfleet}
 \end{equation}
 $$
 
