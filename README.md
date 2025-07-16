@@ -1,6 +1,6 @@
 # Aviation
 
-A simple model for global sustainable aviation. The model currently contains the documentation for the model
+A simple model for global sustainable aviation. The model currently contains the documentation for the model and a simple model implementation in python.
 
 ## Developer Guide
 
@@ -13,6 +13,12 @@ To create the virtual environment from lockfile, make sure you have uv installed
 
 ```
 uv sync
+```
+
+The documentation in this repository is handled by MKDocs framework and styled using [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/). To serve the documentation locally, run:
+
+```
+uv run mkdocs serve
 ```
 
 ### Model/Analysis
