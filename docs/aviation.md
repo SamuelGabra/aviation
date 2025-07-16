@@ -14,7 +14,7 @@ The list of variables is described in the table below:
 | ------------------------ | ------------------------------------------------------------------------------ | ------- | ------------------ | --------- |
 | $seats_{aircraft}$       | number of seats per aircraft                                                   | Input   | 200                |           |
 | $passengers_{year}$      | number of commercial aviation passengers per year                              | Input   | 6 x 10<sup>9</sup> |           |
-| $aircraftflights_{day}$  | number of aircraft flights per day                                             | Input   | 2                  |           |
+| $aircraftflights_{day}$  | number of aircraft flights per day                                             | Input   | 3                  |           |
 | $passengers_{day}$       | number of passengers flying per day                                            | Derived | 2                  |           |
 | $aircraftfleet_{global}$ | Global aircraft fleet required to transport the specified number of passengers | Derived |                    |           |
 
