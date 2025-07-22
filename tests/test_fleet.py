@@ -10,11 +10,13 @@ from aviation.fleet import passengers_per_day, required_global_fleet
         (730_000_000.0, 365.0, 2_000_000.0),
     ),
 )
-def test_passengers_per_day(passengers_per_year, days_per_year, expected_passengers_per_day):
+def test_passengers_per_day(
+    passengers_per_year: float, days_per_year: float, expected_passengers_per_day: float
+) -> None:
     assert passengers_per_day(passengers_per_year, days_per_year) == expected_passengers_per_day
 
 
-def test_required_global_fleet():
+def test_required_global_fleet() -> None:
     days_per_year = 365.0
     passengers_per_year = 6_000_000_000.0
     seats_per_aircraft = 200.0
