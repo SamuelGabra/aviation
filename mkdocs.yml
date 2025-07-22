@@ -3,6 +3,7 @@ theme:
   name: material
 
 plugins:
+  - mkdocstrings
   - search
   - bibtex:
       bib_file: https://api.zotero.org/groups/5782724/collections/G847TDER/items?format=bibtex
@@ -21,3 +22,6 @@ extra_javascript:
 nav:
   - Home: "index.md"
   - Aviation Model: "aviation.md"
+  - API Documentation:
+      - Aviation: api/index.md
+      - Fleet: api/fleet.md
