@@ -1,3 +1,5 @@
+"""Analysis to determine the number of aircrafts required in a global fleet."""
+
 import aviation
 
 days_per_year = 365.0
