@@ -1,7 +1,8 @@
 """Analysis to determine the number of aircrafts required in a global fleet."""
 
+import camia_engine as engine
+
 import aviation
-from aviation import _engine as engine
 
 days_per_year = 365.0
 passengers_per_year = 6_000_000_000.0
